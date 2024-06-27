@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-dev-server --open",
-    "build": "webpack",
+    "start-dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=development",
     "test": "jest"
   },
   "keywords": [],
