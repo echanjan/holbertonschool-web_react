@@ -10,6 +10,13 @@ function App() {
       </header>
       <div className="App-body">
         <p>Login to access the full dashboard</p>
+        <form>
+          <label htmlFor="email">Email: </label>
+          <input type="email" id="email"></input>
+          <label htmlFor="pass">Password: </label>
+          <input type="password" id="pass"></input>
+          <button type='button'>OK</button>
+        </form>
       </div>
       <footer className="App-footer">
         <p>Copyright 2024 - holberton School</p>
